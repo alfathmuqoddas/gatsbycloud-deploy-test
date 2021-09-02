@@ -50,7 +50,7 @@ export default function FeaturedProject() {
   return (      
         <div className="py-20 bg-gray-800" id="project">
 		  <div className="container m-auto px-4 md:px-20">
-			<h1 className="text-6xl font-bold mt-0 text-white pb-16">Featured Project</h1>
+			<h1 className="text-6xl font-bold mt-0 text-white pb-8">Featured Project</h1>
 		    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 		      {projects.map(project => (
 				  <div className="card p-4 border text-white">
