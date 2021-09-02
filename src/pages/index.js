@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <h1>IF THE TEST WORKED YOU CAN READ THIS</h1>
-    <h3>I JUST ADD THIS LINE</h3>
+    <h3>I JUST ADD THIS LINE!</h3>
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
