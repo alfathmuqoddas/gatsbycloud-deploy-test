@@ -2,7 +2,7 @@ import React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
-import { StaticImage } from "gatsby-plugin-image"
+//import { StaticImage } from "gatsby-plugin-image"
 import FeaturedProject from "./FeaturedProject"
 import Skills from "./Skills"
 

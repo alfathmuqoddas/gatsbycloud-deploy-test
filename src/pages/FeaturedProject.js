@@ -54,7 +54,7 @@ export default function FeaturedProject() {
 			<h1 className="text-5xl font-semibold mt-0 text-white pb-8">Featured Project</h1>
 		    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
 		      {projects.map(project => (
-				  <div className="card p-4 text-white bg-gray-900 shadow-lg">
+				  <div className="card p-4 text-white bg-gray-700 shadow-lg">
 				    <img src={project.photos} alt="project-photos" className="rounded-xl" />
 				    <h3 className="text-center">{project.title}</h3>
 				    <p>{project.desription}</p>
