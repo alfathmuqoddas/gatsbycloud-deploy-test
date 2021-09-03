@@ -1,6 +1,6 @@
 import React from "react"
 
-const redHover = ["hover:text-blue-800"];
+const redHover = ["hover:text-blue-400"];
 
 export default function Navbar() {
   return (

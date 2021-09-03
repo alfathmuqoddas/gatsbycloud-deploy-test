@@ -7,56 +7,56 @@ const destinations = [
 		title: "Snow Hill",
 		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
 		location: "Inari, Finland",
-		price: "$150/package",
+		price: "$150",
 	},
 	{
 		photos: "https://picsum.photos/seed/wecsc3/200/150",
 		title: "Sea Horizon",
 		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
 		location: "Johor, Malaysia",
-		price: "$150/package",
+		price: "$150",
 	},
 	{
 		photos: "https://picsum.photos/seed/qwjkcc7/200/150",
 		title: "Gunung Kidul",
 		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
 		location: "Johor, Malaysia",
-		price: "$150/package",
+		price: "$150",
 	},
 	{
 		photos: "https://picsum.photos/seed/wqc5/200/150",
 		title: "Manhattan Bridge",
 		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
 		location: "New York, USA",
-		price: "$150/package",
+		price: "$150",
 	},
 	{
 		photos: "https://picsum.photos/seed/wlw5/200/150",
 		title: "Kuta Beach",
 		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
 		location: "Bali, Indonesia",
-		price: "$150/package",
+		price: "$150",
 	},
 	{
 		photos: "https://picsum.photos/seed/qwc9/200/150",
 		title: "Singapore MArina",
 		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
 		location: "Singapore",
-		price: "$150/package",
+		price: "$150",
 	},
 	{
 		photos: "https://picsum.photos/seed/klsc0/200/150",
 		title: "Snow Forest",
 		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
 		location: "Hol, Norway",
-		price: "$150/package",
+		price: "$150",
 	},
 	{
 		photos: "https://picsum.photos/seed/wc8/200/150",
 		title: "Newsports Beach",
 		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
 		location: "California, US",
-		price: "$150/package",
+		price: "$150",
 	},
 ]
 
@@ -94,8 +94,10 @@ export default function TopDestinations() {
 		      <img src={destination.photos} alt="top-destinations-img" className="rounded-xl"/>
 		      <h3>{destination.title}</h3>
 		      <p>{destination.description}</p>
-		      <div className="inline-block pt-2"><i className="fas fa-map-marker-alt"></i> {destination.location}</div>
-		      <div className="inline-block"><i className="fas fa-comment-dollar"></i> {destination.price}</div>
+		      <div className="pt-2">
+		        <button className="inline-block pr-4"><i className="fas fa-map-marker-alt"></i> {destination.location}</button>
+		        <button className="inline-block"><i className="fas fa-comment-dollar"></i> {destination.price}</button>
+		      </div>
 		    </div>))}
       </div>
       <div className="text-center mt-16"><button><div className="inline-block px-6 py-2 font-semibold bg-blue-800 hover:bg-blue-900 text-white rounded-lg text-lg">View All Destinations</div></button></div>
