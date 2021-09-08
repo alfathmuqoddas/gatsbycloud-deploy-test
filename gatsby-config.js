@@ -14,7 +14,7 @@ module.exports = {
       resolve: "gatsby-source-graphql",
       options: {
         // Arbitrary name for the remote schema Query type
-        typeName: "sSpaceX",
+        typeName: "SpaceX",
         // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
         fieldName: "spacex",
         // Url to query from
