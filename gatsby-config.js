@@ -9,11 +9,30 @@ module.exports = {
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-postcss`,
+    `gatsby-transformer-json`,
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        // Arbitrary name for the remote schema Query type
+        typeName: "sSpaceX",
+        // Field under which the remote schema will be accessible. You'll use this in your Gatsby query
+        fieldName: "spacex",
+        // Url to query from
+        url: "https://api.spacex.land/graphql/",
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `tour-ink-json`,
+        path: `${__dirname}/src/pages/tour-ink/tour-ink-json`,
       },
     },
     `gatsby-transformer-sharp`,

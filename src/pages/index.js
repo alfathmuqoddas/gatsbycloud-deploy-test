@@ -19,7 +19,7 @@ export default function Home() {
 		  <div className="container mx-auto px-4 md:px-20 py-32 flex flex-col md:flex-row gap-x-16 gap-y-28 items-center justify-between">
 		    <div className="w-full md:w-6/12">
 			  <h1 className="text-5xl font-bold m-0 text-white">I'm <span className="text-blue-500">ALFATH MUQODDAS</span></h1>
-			  <h1 className="text-5xl font-light m-0 text-white">a FRONT-END DEVELOPER</h1>
+			  <h1 className="text-5xl font-light m-0 text-white">a WEB DEVELOPER</h1>
 			  <h3 className="text-3xl font-light text-white">Welcome to my Portfolio Page</h3>
 	        </div>
 			<div className="w-full md:w-6/12">

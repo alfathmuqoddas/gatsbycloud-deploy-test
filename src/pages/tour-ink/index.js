@@ -1,11 +1,10 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import Carousel from "./Carousel"
-import Navbar from "./Navbar"
 import PopularSearch from "./PopularSearch"
 import Categories from "./Categories"
 import TopDestinations from "./TopDestinations"
-import Footer from "./Footer"
+import Layout from "./Layout"
 
 export default function TourInkHomePage() {
   return (
@@ -15,12 +14,12 @@ export default function TourInkHomePage() {
         <link rel="shortcut icon" href="../static/icons/favicon.ico" type="image/x-icon" />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
     </Helmet>
-    <Navbar />
+    <Layout>
     <Carousel />
     <PopularSearch />
     <Categories />
     <TopDestinations />
-    <Footer />
+    </Layout>
   </div>
   )
 }
