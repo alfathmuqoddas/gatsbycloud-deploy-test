@@ -1,0 +1,37 @@
+{
+  rockets {
+    name
+    mass {
+      kg
+    }
+    height {
+      meters
+    }
+    cost_per_launch
+    type
+    stages
+    description
+  }
+  dragons {
+    name
+    description
+  }
+  company {
+    ceo
+    coo
+    cto
+    cto_propulsion
+    founder
+    name
+    summary
+    headquarters {
+      city
+      state
+    }
+    founded
+  }
+  missions {
+    name
+    description
+  }
+}
