@@ -43,7 +43,7 @@ const projects = [
 const reactProjects =[
   {
 	  photos:"/tour-ink-sc.jpg",
-	  title:"Tour.Ink",
+	  title:"TourGo",
 	  desription:"Travel landing page built with React + GatsbyJS + GraphQL, styled with Tailwind CSS",
 	  liveLink:"/tour-ink",
 	  codeLink:"https://github.com/alfathmuqoddas/gatsbycloud-deploy-test/tree/master/src/pages/tour-ink",
