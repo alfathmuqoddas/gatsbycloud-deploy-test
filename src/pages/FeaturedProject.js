@@ -71,7 +71,7 @@ export default function FeaturedProject() {
 				      <p>{reactProject.desription}</p>
 				      <div className="mt-2">
 				        <button className="btn btn-ghost mr-4"><a href={reactProject.codeLink} className="inline-block" rel="noreferrer" target="_blank"><i className="fab fa-github"></i> Source Code</a></button>
-				        <button className="btn btn-ghost"><Link to={reactProject.liveLink} className="inline-block" rel="noreferrer" target="_blank">Live Demo</Link></button>
+				        <button className="btn btn-ghost"><a href={reactProject.liveLink} className="inline-block" rel="noreferrer" target="_blank">Live Demo</a></button>
 				      </div>
 				    </div>
 				  </div>
