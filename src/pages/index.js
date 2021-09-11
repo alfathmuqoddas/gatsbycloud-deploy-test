@@ -22,9 +22,9 @@ export default function Home() {
 			  <h1 className="text-5xl font-light m-0 text-white">a WEB DEVELOPER</h1>
 			  <h3 className="text-3xl font-light text-white">Welcome to my Portfolio Page</h3>
 			  <div className="pt-4">
-			    <button className="btn btn-primary mr-4"><a href="https://github.com/alfathmuqoddas" target="_blank" rel="noreferrer" className="inline-block mr-4"><i className="fab fa-github" aria-label="github"></i> My Github</button>
-				<button className="btn btn-primary mr-4"><a href="https://www.linkedin.com/in/alfathmuqoddas" target="_blank" rel="noreferrer" className="inline-block mr-4"><i className="fab fa-linkedin" aria-label="linkedin"></i> My LinkedIn</button>
-				<button className="btn btn-primary"><a href="codepen.io/alfathmuqoddas" target="_blank" rel="noreferrer"  className="inline-block"><i className="fas fa-codepen" aria-label="codepen"></i> My Codepen</button>
+			    <button className="btn btn-primary mr-4"><a href="https://github.com/alfathmuqoddas" target="_blank" rel="noreferrer" className="inline-block mr-4"><i className="fab fa-github" aria-label="github"></i> My Github</a></button>
+				<button className="btn btn-primary mr-4"><a href="https://www.linkedin.com/in/alfathmuqoddas" target="_blank" rel="noreferrer" className="inline-block mr-4"><i className="fab fa-linkedin" aria-label="linkedin"></i> My LinkedIn</a></button>
+				<button className="btn btn-primary"><a href="codepen.io/alfathmuqoddas" target="_blank" rel="noreferrer"  className="inline-block"><i className="fas fa-codepen" aria-label="codepen"></i> My Codepen</a></button>
 			  </div>
 	        </div>
 			<div className="w-full md:w-6/12">
