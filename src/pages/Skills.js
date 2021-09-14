@@ -17,6 +17,10 @@ export default function Skills() {
 			    <h3 className="m-0">CSS</h3>
 			  </div>
 			  <div className="card p-2 text-white text-center bg-gray-700">
+			    <h1><i className="fab fa-sass m-0 text-7xl"></i></h1>
+			    <h3 className="m-0">SASS</h3>
+			  </div>
+			  <div className="card p-2 text-white text-center bg-gray-700">
 			    <h1><i className="fab fa-html5 m-0 text-7xl"></i></h1>
 			    <h3 className="m-0">HTML5</h3>
 			  </div>
