@@ -4,68 +4,68 @@ import { Link } from "gatsby"
 
 const destinations = [
 	{
-		photos: "https://picsum.photos/seed/cjwc0/200/150",
-		title: "Snow Hill",
+		photos: "https://source.unsplash.com/QAwciFlS1g4/480x360",
+		title: "Eiffel Tower",
 		link: "snow-hill",
-		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
-		location: "Inari, Finland",
-		price: "$150",
+		description: "Most famous and beautiful tower in the world in the middle of city of Paris",
+		location: "Paris, France",
+		price: "$150"
 	},
 	{
-		photos: "https://picsum.photos/seed/wecsc3/200/150",
-		title: "Sea Horizon",
-		link: "sea-horizon",
-		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
-		location: "Johor, Malaysia",
-		price: "$150",
+		photos: "https://source.unsplash.com/sAB4BWrQ4Y4/480x360",
+		title: "Taj Mahal",
+		link: "taj-mahal",
+		description: "Beautiful mosque like building intended as giant mauseleoum for Mumtaz Mahal",
+		location: "Agra, India",
+		price: "$150"
 	},
 	{
-		photos: "https://picsum.photos/seed/qwjkcc7/200/150",
-		title: "Gunung Kidul",
-		link: "gunung-kidul",
-		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
-		location: "Johor, Malaysia",
-		price: "$150",
+		photos: "https://source.unsplash.com/E13mcj-2TLE/480x360",
+		title: "Great Wall of China",
+		link: "wall-china",
+		description: "Enjoy beautiful scenery of the world famoust Great Wall of China",
+		location: "Beijing, China",
+		price: "$150"
 	},
 	{
-		photos: "https://picsum.photos/seed/wqc5/200/150",
-		title: "Manhattan Bridge",
-		link: "manhattan-bridge",
-		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
+		photos: "https://source.unsplash.com/DiBu1qTQQ8s/480x360",
+		title: "Broklyn Bridge",
+		link: "broklyn-bridge",
+		description: "One of the most famous building in New York City",
 		location: "New York, USA",
-		price: "$150",
+		price: "$150"
 	},
 	{
-		photos: "https://picsum.photos/seed/wlw5/200/150",
-		title: "Kuta Beach",
-		link: "kuta-beach",
-		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
-		location: "Bali, Indonesia",
-		price: "$150",
+		photos: "https://source.unsplash.com/4hMET7vYTAQ/480x360",
+		title: "Machu Picchu",
+		link: "machu-picchu",
+		description: "One of the most beautiful ancient building of the lost civilizations of Inca",
+		location: "Cuzco, Peru",
+		price: "$150"
 	},
 	{
-		photos: "https://picsum.photos/seed/qwc9/200/150",
+		photos: "https://source.unsplash.com/IcOWqsXWL68/480x360",
 		title: "Singapore Marina",
 		link: "sg-marina",
-		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
+		description: "Enjoy various attraction at Singapore Marina Bay",
 		location: "Singapore",
-		price: "$150",
+		price: "$150"
 	},
 	{
-		photos: "https://picsum.photos/seed/klsc0/200/150",
-		title: "Snow Forest",
-		link: "snow-forest",
-		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
-		location: "Hol, Norway",
-		price: "$150",
+		photos: "https://source.unsplash.com/xdGCrwu2CWM/480x360",
+		title: "Sydney Opera House",
+		link: "sydey-opera",
+		description: "Most beautiful opera house in the world",
+		location: "Sydney, Australia",
+		price: "$150"
 	},
 	{
-		photos: "https://picsum.photos/seed/wc8/200/150",
-		title: "Newsports Beach",
-		link: "newsport-beach",
-		description: "Quisque dapibus leo porttitor. Aenean placerat commodo",
+		photos: "https://source.unsplash.com/L1Ix5Q-PKBY/480x360",
+		title: "Newport Beach",
+		link: "newport-beach",
+		description: "Beautiful beach with rocky cliff in California",
 		location: "California, US",
-		price: "$150",
+		price: "$150"
 	},
 ]
 
@@ -101,14 +101,14 @@ export default function TopDestinations({ data }) {
 		  />
         </div>
         <div className="text w-full md:w-6/12">
-          <h1 className="text-5xl">Why Choose Tour.Ink?</h1>
+          <h1 className="text-5xl">Why Choose TourGo?</h1>
           <p>We provide the best service in the market, with Tour.Ink you can find your destinations fast and easy, supported with the best and the most skilled people makes the Tour.Ink is your number one go-to travel apps.</p>
         </div>
       </div>
     </div>
     <div className="bg-blue-900">
       <div className="container mx-auto px-4 md:px-20 py-20 mt-16 text-center text-white ">
-        <h1 className="text-5xl mt-0">Download the Tour.Ink app, now!</h1>
+        <h1 className="text-5xl mt-0">Download the TourGo app, now!</h1>
         <p className="text-lg text-white">Get the latest update from us and easier booking for sure</p>
         <div className="text-center mt-8">
           <button className="inline-block mr-8 btn btn-primary"><i className="fab fa-google-play text-xl"></i> Google Play</button>

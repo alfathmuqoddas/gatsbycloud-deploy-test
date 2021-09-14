@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
   <div className="container mx-auto px-4 md:px-20 py-4">
     <div className="flex gap-4 items-center justify-between">
-      <Link to="/tour-ink"><h1 className="text-xl">Tour.Ink</h1></Link>
+      <Link to="/tour-ink"><h1 className="text-xl">TourGo</h1></Link>
       <div className="hidden md:flex">
         <ul>
           <li className={linkStyle}><a href="#">Home</a></li>
