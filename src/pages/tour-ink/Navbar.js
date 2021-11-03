@@ -21,7 +21,6 @@ export default function Navbar() {
         <a href="#"><div className="inline-block px-6 py-2 font-semibold bg-blue-800 hover:bg-blue-900 text-white rounded-lg text-sm">Sign Up</div></a>
       </div>
       <button className="md:hidden text-xl"><i className="fas fa-bars"></i></button>
-      
     </div>
   </div>
   )

@@ -4,9 +4,16 @@ import { Link } from "gatsby"
 
 const projects = [
   {
+	  photos:"/tour-ink-sc.jpg",
+	  title:"TourGo",
+	  desription:"Travel landing page built with React + GatsbyJS + GraphQL, styled with Tailwind CSS",
+	  liveLink:"/tour-ink",
+	  codeLink:"https://github.com/alfathmuqoddas/gatsbycloud-deploy-test/tree/master/src/pages/tour-ink",
+  },
+  {
 	  photos:"/weather-forecast-sc.jpg",
 	  title:"Weather Forecast App",
-	  desription:"Minimalist and elegant weather forecast app, built with vanilla JavaScript and Rest API",
+	  desription:"Minimalist and elegant weather forecast app, built with vanilla JavaScript and OpenWeatherMap API",
 	  liveLink:"https://alfathmuqoddas.github.io/weather-forecast",
 	  codeLink:"https://github.com/alfathmuqoddas/weather-forecast",
   },
@@ -40,44 +47,12 @@ const projects = [
   },
 ]
 
-const reactProjects =[
-  {
-	  photos:"/tour-ink-sc.jpg",
-	  title:"TourGo",
-	  desription:"Travel landing page built with React + GatsbyJS + GraphQL, styled with Tailwind CSS",
-	  liveLink:"/tour-ink",
-	  codeLink:"https://github.com/alfathmuqoddas/gatsbycloud-deploy-test/tree/master/src/pages/tour-ink",
-  },
-  {
-	  photos:"/spacex-app-sc.jpg",
-	  title:"SpaceX App",
-	  desription:"SpaceX info apps built with Gatsby JS and GRaphQL, data fetch from SpaceX api",
-	  liveLink:"/spacex-app",
-	  codeLink:"https://github.com/alfathmuqoddas/spacex-app",
-  },
-]
-
 export default function FeaturedProject() {
   return (      
         <div className="py-28 bg-gray-800" id="project">
 		  <div className="container m-auto px-4 md:px-20">
 			<h1 className="text-5xl font-semibold mt-0 text-white pb-8">Featured Project</h1>
-			<div className="grid grid-cols-1 md:grid-cols-3 gap-12 py-12">
-		      {reactProjects.map(reactProject => (
-				  <div className="text-white bg-gray-700 shadow-lg rounded-2xl overflow-hidden">
-				    <img src={reactProject.photos} alt="project-photos" className="" />
-				    <div className="p-4">
-				      <h3 className="text-center mt-0">{reactProject.title}</h3>
-				      <p>{reactProject.desription}</p>
-				      <div className="mt-2">
-				        <button className="btn btn-ghost mr-4"><a href={reactProject.codeLink} className="inline-block" rel="noreferrer" target="_blank"><i className="fab fa-github"></i> Source Code</a></button>
-				        <button className="btn btn-ghost"><a href={reactProject.liveLink} className="inline-block" rel="noreferrer" target="_blank">Live Demo</a></button>
-				      </div>
-				    </div>
-				  </div>
-			  ))}
-		    </div>
-		    <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+			<div className="grid grid-cols-1 md:grid-cols-3 gap-12">
 		      {projects.map(project => (
 				  <div className="text-white bg-gray-700 shadow-lg rounded-2xl overflow-hidden">
 				    <img src={project.photos} alt="project-photos" className="" />
