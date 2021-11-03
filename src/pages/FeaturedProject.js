@@ -4,11 +4,18 @@ import { Link } from "gatsby"
 
 const projects = [
   {
-	  photos:"/tour-ink-sc.jpg",
-	  title:"TourGo",
-	  desription:"Travel landing page built with React + GatsbyJS + GraphQL, styled with Tailwind CSS",
-	  liveLink:"/tour-ink",
-	  codeLink:"https://github.com/alfathmuqoddas/gatsbycloud-deploy-test/tree/master/src/pages/tour-ink",
+	  photos:"/firebase-task.jpg",
+	  title:"Firebase Task",
+	  desription:"Full Stack web app for creating and tracking tasks build with React and Firebase Firestore Database and Firebase Authentication",
+	  liveLink:"https://alfathmuqoddas.github.io/react-movie-query/#/firebase-app",
+	  codeLink:"https://github.com/alfathmuqoddas/react-movie-query",
+  },
+  {
+	  photos:"/react-movie-query.jpg",
+	  title:"React Movie App",
+	  desription:"Web app for searching info about a movie, build with React, React Router, and Bootstrap",
+	  liveLink:"https://alfathmuqoddas.github.io/react-movie-query/#/movie",
+	  codeLink:"https://github.com/alfathmuqoddas/react-movie-query",
   },
   {
 	  photos:"/weather-forecast-sc.jpg",
@@ -30,20 +37,6 @@ const projects = [
 	  desription:"Landing page based on DigitalOcean website built with HTML5 and TailwindCSS",
 	  liveLink:"https://alfathmuqoddas.github.io/green-cloud",
 	  codeLink:"https://github.com/alfathmuqoddas/green-cloud",
-  },
-  {
-	  photos:"/bbc-clone-sc.jpg",
-	  title:"BBC Clone",
-	  desription:"Replicating the BBC News Website built with HTML5 and Tailwind CSS",
-	  liveLink:"https://alfathmuqoddas.github.io/bbc-clone",
-	  codeLink:"https://github.com/alfathmuqoddas/bbc-clone",
-  },
-  {
-	  photos:"/travelmate-sc.jpg",
-	  title:"TravelMate",
-	  desription:"Simple travel landing page built with HTML5 and Bootstrap CSS",
-	  liveLink:"https://alfathmuqoddas.github.io/travelmate",
-	  codeLink:"https://github.com/alfathmuqoddas/travelmate",
   },
 ]
 
