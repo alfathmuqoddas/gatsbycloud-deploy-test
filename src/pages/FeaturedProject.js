@@ -5,8 +5,8 @@ import { Link } from "gatsby"
 const projects = [
   {
 	  photos:"/firebase-task.jpg",
-	  title:"Firebase Task",
-	  desription:"Full Stack web app for creating and tracking tasks build with React and Firebase Firestore Database and Firebase Authentication",
+	  title:"Firebase Issue Tracker",
+	  desription:"Full Stack web app for creating and tracking Issue build with React and Firebase Firestore Database and Firebase Authentication",
 	  liveLink:"https://alfathmuqoddas.github.io/react-movie-query/#/firebase-app",
 	  codeLink:"https://github.com/alfathmuqoddas/react-movie-query",
   },
